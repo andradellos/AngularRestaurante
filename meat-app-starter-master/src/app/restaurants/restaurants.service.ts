@@ -17,5 +17,4 @@ export class RestaurantsService{
      return this.http.get(`${MIT_API}/restaurants`)
      .map(response => response.json())
   }
-
 }
